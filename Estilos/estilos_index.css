@@ -1,15 +1,10 @@
 * {
     font-family: 'Open Sans', sans-serif;
-    background: no-repeat center/100%  ;
-    background-color: #EEE3CB;
-    text-decoration: none;
-    color: #696458;
 }
 
-.contenedor{
-
-
-}
+/*----------------------------------------*/
+/* Estilos del encabezado
+/*----------------------------------------*/
 
 .encabezado {
     display: flex;
@@ -25,15 +20,15 @@
 }
 
 .encabezado-foto {
-    width: 291px;
-    height: 301px;
-    margin: -65px 0px 0px 0px;
+    width: 254px;
+    height: 269px;
+    margin: -65px 0px 10px 0px;
     padding: 0px;
 }
 
 .encabezado-titulo1 h1{
     font-size: 60px;
-    margin-top: -26px;
+    margin-top: 5px;
     margin-bottom: -1px;
     padding: 0px 0px;
 
@@ -54,22 +49,38 @@
     padding: 0px 0px;
    
 }
+/*----------------------------------------*/
+/* Estilos del menu
+/*----------------------------------------*/
 
 .menu{
     display:flex;
     justify-content: center ;
-    font-size: 30px;
-    font-weight: bold;
+
 }
-.menu a{
-    color:#1E2F49;
+
+.menu ul{
+    list-style: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.menu ul li{
+    display: inline-block;
+
+}
+
+.menu li a{
+    color:#333333;
+    padding: 10px ;
+    text-decoration: none;
+    font-size: 20px;
     font-weight: bold;
     border-width: 1px;
     border-radius: 8px;
     background-color: #DAC0A3;
-    padding: 5px;
-    pad: 20px;
-    margin: 15px;
+    margin: 0px 40px ;
+
 }
 
 .menu a:hover{
@@ -78,3 +89,12 @@
 
 }
 
+/*----------------------------------------*/
+/* Estilos del pie
+/*----------------------------------------*/
+.piebanda{
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+   
+}

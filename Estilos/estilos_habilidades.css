@@ -89,6 +89,17 @@
     grid-area: texto;
 }
 
+.habilidades img{
+    margin-left: 240px;
+    width: 20px;
+    height: 20px;
+}
+.habilidades{
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+}
+
 
 /*----------------------------------------*/
 /* Estilos del pie
@@ -139,5 +150,5 @@
 }
 .pie-menu-der a img:hover{
     scale: 1.2;
-
+}
 

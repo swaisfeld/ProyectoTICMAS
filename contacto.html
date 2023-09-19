@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Sergio Waisfeld - Contacto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/Estilos/contacto.css">
+
+</head>
+
+<body>
+    <!--Contenedor principal-->
+    <div class="contenedor">
+        <!-- Encabezado -->
+        <header>
+            <div class="encabezado">
+                <div class="titulo">
+                    <h1>
+                        <p>Contacto</p>
+                    </h1>
+                </div>
+                <!-- Barra de navegacion -->
+                <nav>
+                    <div class="menubandah">
+                        <ul>
+                            <li><a href="/index.html">Inicio</a></li>
+                            <li><a href="/sobremi.html">Sobre mi</a></li>
+                            <li><a href="/educacion.html">Educacion</a></li>
+                            <li><a href="/habilidades.html">Habilidades</a></li>
+                            <li><a href="/experiencia.html">Experiencia</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+
+        <!--Articulo 1-->
+        <article>
+            <div class="contenedor-cuerpo">
+                <div class="ladoizq">
+                    <div class="minombre">
+                        <h2>Sergio Gabriel Waisfeld</h2>
+                    </div>
+
+                    <div class="misdatos">
+                        <span><img src="/imagenes/sobre.png" alt="sobre"></span>
+                        <span><a title="Enviar mail"
+                                href="mailto:swaisfeld@gmail.com?Subject=Escribir%20asunto">swaisfeld@gmail.com</a></span>
+
+                        <br>
+                        <span><img src="/imagenes/telefono.png" alt="sobre"></span>
+                        <span>+54 9 351 8128305</span>
+                        <br>
+                        <span><img src="/imagenes/ubicacion.png" alt="sobre"></span>
+                        <span>Villa Giardino - Cordoba - Argentina</span>
+                    </div>
+
+                    <div class="miubicacion">
+                        <a title="Villa Giardino" href="https://maps.app.goo.gl/qDtp4MNi9hosBa3o6"><img
+                                src="/imagenes/villagiardino.png" alt="mapa villa giardino"></a>
+                    </div>
+                </div>
+
+                <div class="ladoder">
+                    <form action="mostrar_datos.html" target="_blank">
+
+                        <fieldset>
+                            <legend>Datos para contactarme</legend>
+
+                            <!-- Ingreso del nombre -->
+                            <label for="nombre">Nombre: </label>
+                            <input size="30" type="text" name="nombre" placeholder="Ingrese su nombre aqui..." required>
+                            <br><br>
+
+                            <!-- Ingreso del apellido -->
+                            <label for="apellido">Apellido: </label>
+                            <input size="30" type="text" name="apellido" placeholder="Ingrese su apellido aqui..."
+                                required>
+                            <br><br>
+
+                            <!-- Ingreso de la dirección de correo-->
+                            <label for="email">email: </label>
+                            <input type="email" name="email" required>
+                            <br><br>
+
+                            <!-- Comentario -->
+                            <label for="comentario">Comentario:</label><br>
+                            <textarea name="comentario" id="comentario" cols="40" rows="3" required></textarea>
+
+                            <!-- Botones para controlar el formulario -->
+                            <br><br>
+                            <input type="reset" value="Borrar formulario">
+                            <input type="submit" value="Enviar datos">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </article>
+
+        <!--Pie de pagina-->
+        <footer>
+            <div class="pie">
+                <div class="pie-izq">
+                    <h2>
+                        <p></p>
+                    </h2>
+                </div>
+
+                <div class="pie-menu-der">
+                    <ul>
+                        <li><a href="#"><img src="/imagenes/facebook.png" alt="logo Facebook" title="Ir a Facebook"></a>
+                        </li>
+                        <li><a href="#"><img src="/imagenes/instagram.png" alt="logo Instagram"
+                                    title="Ir a Instagram"></a></li>
+                        <li><a href="#"><img src="/imagenes/Tweeter.png" alt="logo Tweeter" title="Ir a Tweeter"></a>
+                        </li>
+                        <li><a href="#"><img src="/imagenes/whatsapp.png" alt="logo Whatsapp" title="Ir a Whatsapp"></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </footer>
+
+    </div>
+</body>
+
+</html>
